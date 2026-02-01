@@ -1,0 +1,47 @@
+{
+  "name": "ahead-ui",
+  "version": "0.0.1",
+  "private": true,
+  "description": "AI-enhanced adaptive design system - Always one step ahead",
+  "author": "Francesco Pesoli <francesco.pesoli@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/francescopesoli/ahead-ui"
+  },
+  "keywords": [
+    "design-system",
+    "react",
+    "typescript",
+    "tailwind",
+    "accessibility",
+    "adaptive-ui",
+    "ai-enhanced"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "clean": "turbo clean && rm -rf node_modules",
+    "typecheck": "turbo typecheck",
+    "storybook": "pnpm --filter @ahead-ui/docs storybook",
+    "build:storybook": "pnpm --filter @ahead-ui/docs build-storybook",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo build --filter=./packages/* && changeset publish"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@types/node": "^20.11.0",
+    "prettier": "^3.2.4",
+    "turbo": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "packageManager": "pnpm@8.15.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
