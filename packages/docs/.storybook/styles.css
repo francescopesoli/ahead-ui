@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Storybook canvas background follows theme */
+.sb-show-main {
+  background-color: var(--bg) !important;
+  transition: background-color 0.2s ease;
+}
+
+/* Story container */
+[data-theme='light'] {
+  --ring-offset: #ffffff;
+}
+
+[data-theme='dark'] {
+  --ring-offset: #0a0a0a;
+}
