@@ -53,6 +53,74 @@
     "./dialog": {
       "types": "./dist/dialog/index.d.ts",
       "import": "./dist/dialog/index.js"
+    },
+    "./textarea": {
+      "types": "./dist/textarea/index.d.ts",
+      "import": "./dist/textarea/index.js"
+    },
+    "./tag": {
+      "types": "./dist/tag/index.d.ts",
+      "import": "./dist/tag/index.js"
+    },
+    "./progress": {
+      "types": "./dist/progress/index.d.ts",
+      "import": "./dist/progress/index.js"
+    },
+    "./skeleton": {
+      "types": "./dist/skeleton/index.d.ts",
+      "import": "./dist/skeleton/index.js"
+    },
+    "./divider": {
+      "types": "./dist/divider/index.d.ts",
+      "import": "./dist/divider/index.js"
+    },
+    "./alert": {
+      "types": "./dist/alert/index.d.ts",
+      "import": "./dist/alert/index.js"
+    },
+    "./tabs": {
+      "types": "./dist/tabs/index.d.ts",
+      "import": "./dist/tabs/index.js"
+    },
+    "./radio-group": {
+      "types": "./dist/radio-group/index.d.ts",
+      "import": "./dist/radio-group/index.js"
+    },
+    "./accordion": {
+      "types": "./dist/accordion/index.d.ts",
+      "import": "./dist/accordion/index.js"
+    },
+    "./breadcrumb": {
+      "types": "./dist/breadcrumb/index.d.ts",
+      "import": "./dist/breadcrumb/index.js"
+    },
+    "./pagination": {
+      "types": "./dist/pagination/index.d.ts",
+      "import": "./dist/pagination/index.js"
+    },
+    "./select": {
+      "types": "./dist/select/index.d.ts",
+      "import": "./dist/select/index.js"
+    },
+    "./slider": {
+      "types": "./dist/slider/index.d.ts",
+      "import": "./dist/slider/index.js"
+    },
+    "./toast": {
+      "types": "./dist/toast/index.d.ts",
+      "import": "./dist/toast/index.js"
+    },
+    "./menu": {
+      "types": "./dist/menu/index.d.ts",
+      "import": "./dist/menu/index.js"
+    },
+    "./table": {
+      "types": "./dist/table/index.d.ts",
+      "import": "./dist/table/index.js"
+    },
+    "./drawer": {
+      "types": "./dist/drawer/index.d.ts",
+      "import": "./dist/drawer/index.js"
     }
   },
   "files": ["dist"],
@@ -69,15 +137,26 @@
     "@react-aria/checkbox": "^3.14.1",
     "@react-aria/dialog": "^3.5.12",
     "@react-aria/focus": "^3.16.2",
+    "@react-aria/i18n": "^3.11.1",
     "@react-aria/interactions": "^3.21.1",
+    "@react-aria/listbox": "^3.12.1",
     "@react-aria/overlays": "^3.22.0",
+    "@react-aria/radio": "^3.10.2",
+    "@react-aria/select": "^3.14.3",
+    "@react-aria/slider": "^3.7.6",
     "@react-aria/switch": "^3.6.2",
     "@react-aria/tooltip": "^3.7.2",
     "@react-aria/utils": "^3.23.2",
     "@react-aria/visually-hidden": "^3.8.10",
+    "@react-stately/collections": "^3.10.5",
+    "@react-stately/overlays": "^3.6.5",
+    "@react-stately/radio": "^3.10.2",
+    "@react-stately/select": "^3.6.2",
+    "@react-stately/slider": "^3.5.2",
     "@react-stately/toggle": "^3.7.2",
     "@react-stately/tooltip": "^3.4.9",
     "@react-types/button": "^3.9.2",
+    "@react-types/select": "^3.9.2",
     "@react-types/shared": "^3.22.1",
     "class-variance-authority": "^0.7.0",
     "framer-motion": "^11.0.3"
